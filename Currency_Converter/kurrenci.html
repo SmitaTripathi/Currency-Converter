@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="Currenci/Currenci_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Currenci/Currenci.css">
+    <title>CURRENCY CONVERTER</title>
+</head>
+<body>
+    <h1 class="column">kurr<br>enci</h1>
+    <section class="column">
+        <input type="number" name="amount" id="amount" placeholder="Amount">
+        <select id="currency">
+            <option id="default-option" value="1" selected hidden disabled>CURRENCY</option>
+        </select>
+        <button type="submit" onclick="conversion()">Convert</button>
+        <p id="update-date"></p>
+    </section>
+    <div class="column" id="results">
+    </div>
+    <img id="wave" src="Currenci/Currenci_wave.svg" alt="">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="Currenci/Currenci.js"></script>
+</body>
+</html>
+
